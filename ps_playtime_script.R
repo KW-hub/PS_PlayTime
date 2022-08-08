@@ -1,4 +1,3 @@
-#PS5なし、No.なしのデータ
 dat <- read.csv("data.csv", header = TRUE, fileEncoding = "UTF-8-BOM")
 
 head(dat)
@@ -28,4 +27,3 @@ var(dat$PS4, na.rm = TRUE)
 
 #クラスカル・ウォリス検定を実施
 kruskal.test(x=dat)
-?kruskal.test
